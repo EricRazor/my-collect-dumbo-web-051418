@@ -4,5 +4,4 @@ def my_collect(set)
   while counter < set.length do |block|
     yield block
   end
-  return newset
 end
